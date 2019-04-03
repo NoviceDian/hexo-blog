@@ -157,11 +157,11 @@ baidu_push: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 # External url should start with http:// or https://
 menu:
-  home: / || home
+  #首页: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
+  标签: /tags/ || tags
+  目录: /categories/ || th
+  #archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -177,10 +177,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -311,8 +311,8 @@ excerpt_description: true
 # Automatically Excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 100
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.
@@ -824,7 +824,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true

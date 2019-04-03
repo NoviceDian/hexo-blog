@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: day day up
 subtitle:
 description:
 keywords:
 author: 徐志滇
-language: zh-Hans 
+language: zh-CN
 timezone:
 
 # URL
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -82,6 +82,4 @@ deploy:
   repo: https://github.com/NoviceDian/NoviceDian.github.io.git
   branch: master
 
-#next
-disqus_shortname: your-disqus-shortname
   
