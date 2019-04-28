@@ -8,7 +8,7 @@ tags:
 
 # <center>SPI---Service Provider Interfaces</center>
 
-- 什么是JAVA SPI?
+## 什么是JAVA SPI?
 
 &nbsp;&nbsp;SPI全称 **Service Provider Interfaces**
 
@@ -44,14 +44,14 @@ SPI:定义了接口的功能，给服务实现者去实现具体接口功能的�
 &nbsp;&nbsp;SPI的核心就是ServiceLoader。用于将服务提供者加载到内存中来。
 
 
-- SPI有什么用？
+## SPI有什么用？
 
 discovering and loading implementations matching a given interface
 
-发现和加载符合给定接口的实现。
+发现和加载符合给定接口的实现。利用这个特性，能让java更具有扩展性。
 
 
-- [JAVA SPI怎么使用](https://www.baeldung.com/java-spi)？
+## [JAVA SPI怎么使用](https://www.baeldung.com/java-spi)？
 
 
 1. 定义我们的服务提供者接口，他提供了一个功能。
@@ -108,3 +108,7 @@ public class MyProvider
 
 
 
+参考文献：
+[SPI](https://www.baeldung.com/java-spi)
+
+[SPI和API的区别](https://stackoverflow.com/questions/2954372/difference-between-spi-and-api)
